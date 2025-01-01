@@ -1,0 +1,134 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: "Poppins", sans-serif;
+}
+
+.btn-contato button{
+    padding: 5px 10px;
+    font-size: 16px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.btn-contato button:hover{
+    background-color: white;
+    color: black;
+}
+
+body{
+    background-color: blk;
+}
+
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+header{
+    width: 100%;
+    padding: 40px 0;
+    position: fixed;
+}
+
+header .interface{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo img{
+    max-width: 40px;
+}
+
+header .menu-desktop ul{
+    display: flex;
+}
+
+header .menu-desktop li{
+    display: inline-block;
+    padding: 10px 40px;
+}
+
+header .menu-desktop a{
+    display: inline-block;
+    color: white;
+    transition: 0.2s;
+}
+
+header .menu-desktop a:hover{
+    transform: scale(1.10);
+}
+
+main .hero-site{
+    height: 100vh;
+    background-image: url(imagens/bg-inicio-site.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: white; 
+}
+
+.hero-site .interface{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.hero-site .txt-hero h1{
+    font-size: 4em;
+    line-height: 70px;
+    font-weight: 200;
+}
+
+.hero-site .txt-hero h1 span{
+    display: block;
+    font-weight: 600;
+}
+
+.hero-site .txt-hero p{
+    font-size: 20px;
+    font-weight: 300;
+    margin: 20px 0;
+}
+
+.hero-site .txt-hero p span{
+    display: block;
+    font-weight: 200;
+}
+
+
+main .vantagens{
+    padding: 80px 0;
+}
+
+.vantagens .itens-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-bottom: 60px;
+}
+
+.vantagens .itens-container .img-itens img{
+    max-width: 420px;
+}
+
+.vantagens .itens-container .txt-itens h3{
+    font-size: 3em;
+    line-height: 50px;
+}
+
+.vantagens .itens-container .txt-itens h3 span{
+    font-weight: 300;
+}
